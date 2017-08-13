@@ -36,7 +36,33 @@ public class DayOfWeek
 	 //Calculation of year according to gregorian calendar
          int d=(day+x+m*31/12)%7;
   
-	System.out.println(d);        
+	
+
+	switch(d)
+	{
+	   case 0:System.out.println("Sunday" +""+ d);
+	   break;   
+
+	   case 1:System.out.println("Monday" +""+ d);
+	   break; 
+
+	   case 2:System.out.println("Tuesday" +""+ d);
+	   break; 
+
+	   case 3:System.out.println("wednesday" +""+ d);
+	   break; 
+
+	   case 4:System.out.println("thursday" +""+ d);
+	   break; 
+
+	   case 5:System.out.println("friday" +""+ d);
+	   break;
+
+	   case 6:System.out.println("Saturday"+"" + d);
+	   break; 
+	}
+  
+      
  }
 	
 }		
